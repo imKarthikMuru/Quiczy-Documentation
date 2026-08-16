@@ -1,0 +1,99 @@
+/**
+ * Quiczy POS Documentation Custom Styling
+ * Primary Brand Color: #6C5CE7 / #5843E0 (Quiczy Purple)
+ */
+
+:root {
+  --ifm-color-primary: #6c5ce7;
+  --ifm-color-primary-dark: #5a48e4;
+  --ifm-color-primary-darker: #513de2;
+  --ifm-color-primary-darkest: #3924c8;
+  --ifm-color-primary-light: #7e70ea;
+  --ifm-color-primary-lighter: #877aec;
+  --ifm-color-primary-lightest: #a39af1;
+  --ifm-code-font-size: 92%;
+  --ifm-font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --docusaurus-highlighted-code-line-bg: rgba(108, 92, 231, 0.08);
+}
+
+/* Dark Mode Palette */
+[data-theme='dark'] {
+  --ifm-color-primary: #8b7cf6;
+  --ifm-color-primary-dark: #7765f4;
+  --ifm-color-primary-darker: #6d59f3;
+  --ifm-color-primary-darkest: #4528ee;
+  --ifm-color-primary-light: #9f93f8;
+  --ifm-color-primary-lighter: #a99df9;
+  --ifm-color-primary-lightest: #c8c1fc;
+  --docusaurus-highlighted-code-line-bg: rgba(139, 124, 246, 0.15);
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+}
+
+/* Documentation Image / Screenshot Standards */
+article img {
+  border-radius: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.05);
+  margin: 1.5rem 0 0.5rem 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+[data-theme='dark'] article img {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+article em {
+  display: block;
+  text-align: center;
+  font-size: 0.88rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+}
+
+/* Table Enhancements */
+table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: rgba(108, 92, 231, 0.08);
+  color: var(--ifm-font-color-base);
+  font-weight: 600;
+}
+
+[data-theme='dark'] table th {
+  background-color: rgba(139, 124, 246, 0.15);
+}
+
+/* Admonitions / Callouts */
+.alert {
+  border-radius: 10px;
+  border-left-width: 5px;
+}
+
+/* Badges for RBAC & Features */
+.badge-role {
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 6px;
+  background: #ede9fe;
+  color: #5b21b6;
+  margin-right: 0.4rem;
+}
+
+[data-theme='dark'] .badge-role {
+  background: #2e1065;
+  color: #c4b5fd;
+}
