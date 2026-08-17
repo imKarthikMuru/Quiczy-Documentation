@@ -139,4 +139,4 @@ The repository includes a pre-configured GitHub Actions workflow at `.github/wor
 ---
 
 ## 📄 License & Ownership
-Copyright © 2026 HitaSoft. All rights reserved. Quiczy POS Enterprise Documentation.
+Copyright © 2026 Quiczy. All rights reserved. Quiczy POS Enterprise Documentation.
