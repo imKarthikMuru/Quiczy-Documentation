@@ -173,7 +173,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © 2026 HitaSoft. All rights reserved. Quiczy POS Enterprise Platform.`,
+      copyright: `Copyright © 2026 Quiczy. All rights reserved. Quiczy POS Enterprise Platform.`,
     },
     prism: {
       theme: prismThemes.github,
